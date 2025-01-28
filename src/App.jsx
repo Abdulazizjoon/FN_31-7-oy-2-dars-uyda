@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { decrement, increment, reset } from "./store/Counter";
+import { decrement, increment, reset } from "./store/counter";
 import { closeModal, openModal } from "./store/modal";
 import { add, changeStatus, remove } from "./store/todo";
 function App() {

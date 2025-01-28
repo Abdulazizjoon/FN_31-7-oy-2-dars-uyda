@@ -4,7 +4,7 @@ let initialState = {
   value: 0,
 };
 
-let Counter = createSlice({
+let counter = createSlice({
   name: "counter",
   initialState,
   reducers: {
@@ -19,5 +19,5 @@ let Counter = createSlice({
     },
   },
 });
-export default Counter.reducer;
+export default counter.reducer;
 export let { increment, decrement, reset } = Counter.actions;
