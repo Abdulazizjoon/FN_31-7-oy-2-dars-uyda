@@ -20,4 +20,4 @@ let counter = createSlice({
   },
 });
 export default counter.reducer;
-export let { increment, decrement, reset } = Counter.actions;
+export let { increment, decrement, reset } = counter.actions;
